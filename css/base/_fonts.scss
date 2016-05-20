@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+$logo-font: 'Mr Dafoe', cursive;;
+$body-text: 'Roboto', sans-serif;
+$header: 'Courgette', cursive;
+
+.logo-font {
+	display: inline;
+	color: $navy;
+	font-family: $logo-font;
+	font-size: 3.6em;
+}

@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+.logo-font {
+  display: inline;
+  color: #182945;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 3.6em; }
+
+.nav {
+  background-color: #182945;
+  border-top: 2px solid #182945;
+  border-bottom: 2px solid #182945; }
+
+a {
+  font-family: "Courgette", cursive;
+  color: #fff;
+  font-size: 1.2em; }
+
+.verticalButton {
+  margin: 25px 10px 10px 0; }
+
+.top-head {
+  background-color: #eee; }
+
+.logo-img {
+  display: inline;
+  height: 76px;
+  margin-right: 40px; }
+
+/*# sourceMappingURL=main.css.map */
