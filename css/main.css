@@ -2,10 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
 .logo-font {
-  display: inline;
+  display: block;
   color: #182945;
   font-family: "Mr Dafoe", cursive;
-  font-size: 3.6em; }
+  font-size: 4.2em;
+  text-shadow: 2px 2px 2px #a1a1a1; }
 
 .nav {
   background-color: #182945;
@@ -18,14 +19,24 @@ a {
   font-size: 1.2em; }
 
 .verticalButton {
-  margin: 25px 10px 10px 0; }
+  margin: 20px 10px 10px 0; }
 
 .top-head {
-  background-color: #eee; }
+  background: linear-gradient(#a1a1a1, #eee); }
 
 .logo-img {
   display: inline;
   height: 76px;
-  margin-right: 40px; }
+  margin-right: 20px;
+  padding-bottom: 10px; }
+
+.h1-font-margin {
+  margin: 0;
+  padding-right: 50px; }
+
+#home-carousel img {
+  width: auto;
+  max-height: 500px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
