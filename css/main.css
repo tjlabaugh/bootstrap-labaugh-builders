@@ -8,6 +8,11 @@
   font-size: 4.2em;
   text-shadow: 2px 2px 2px #a1a1a1; }
 
+.header-font {
+  display: block;
+  color: #182945;
+  font-family: "Courgette", cursive; }
+
 .nav {
   background-color: #182945;
   border-top: 2px solid #182945;
@@ -19,24 +24,70 @@ a {
   font-size: 1.2em; }
 
 .verticalButton {
-  margin: 20px 10px 10px 0; }
+  margin: 8px 10px 8px 0; }
 
 .top-head {
-  background: linear-gradient(#a1a1a1, #eee); }
+  background-color: #182945; }
 
 .logo-img {
   display: inline;
-  height: 76px;
-  margin-right: 20px;
+  height: 60px;
+  margin-left: 20px;
   padding-bottom: 10px; }
 
 .h1-font-margin {
   margin: 0;
-  padding-right: 50px; }
+  padding-right: 50px;
+  color: #eee; }
 
 #home-carousel img {
   width: auto;
-  max-height: 500px;
-  margin: 0 auto; }
+  max-height: 600px;
+  margin: 0 auto;
+  opacity: 1; }
+
+.overlay {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.overlay-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #eee;
+  opacity: .3;
+  z-index: -1; }
+
+.overlay h1 {
+  display: block;
+  color: #182945;
+  font-size: 6em;
+  font-family: "Mr Dafoe", cursive;
+  text-shadow: 2px 2px 2px #a1a1a1;
+  padding-left: 40px;
+  opacity: 1.0; }
+
+.overlay h2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #182945;
+  font-family: "Courgette", cursive;
+  line-height: 1.2em;
+  text-shadow: 1px 1px 2px #a1a1a1; }
+
+.motto-top {
+  left: 20%; }
+
+.motto-bottom {
+  left: 40%; }
 
 /*# sourceMappingURL=main.css.map */

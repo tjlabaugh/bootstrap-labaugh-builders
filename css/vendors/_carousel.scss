@@ -1,5 +1,57 @@
 #home-carousel img {
   width: auto;
-  max-height: 500px;
+  max-height: 600px;
   margin: 0 auto;
+  opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+//	text-align: center;
+	overflow: hidden;
+}
+
+.overlay-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: $grey;
+	opacity: .3;
+	z-index: -1;
+}
+
+.overlay h1 {
+	display: block;
+	color: $navy;
+	font-size: 6em;
+	font-family: $logo-font;
+	text-shadow: 2px 2px 2px $darkgrey;
+	padding-left: 40px;
+	opacity: 1.0;
+}
+
+.overlay h2 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	color: $navy;
+	font-family: $header;
+	line-height: 1.2em;
+	text-shadow: 1px 1px 2px $darkgrey;
+}
+
+.motto-top {
+	left: 20%;
+}
+
+.motto-bottom {
+	left: 40%;
 }

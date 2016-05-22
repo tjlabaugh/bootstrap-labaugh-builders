@@ -13,3 +13,9 @@ $header: 'Courgette', cursive;
 	font-size: 4.2em;
 	text-shadow: 2px 2px 2px $darkgrey;
 }
+
+.header-font {
+	display: block;
+	color: $navy;
+	font-family: $header;
+}
