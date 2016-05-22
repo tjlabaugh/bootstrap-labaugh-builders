@@ -2,9 +2,13 @@
 	margin: 8px 10px 8px 0;
 }
 
+.top-row{
+	background-color: $grey;
+}
+
 .top-head {
 //	background: linear-gradient($darkgrey, $grey);
-	background-color: $navy;
+	background-color: $darkgrey;
 }
 
 .logo-img {
@@ -17,6 +21,6 @@
 
 .h1-font-margin {
 	margin: 0;
-	padding-right: 50px;
-	color: $grey;
+//	padding-right: 50px;
+	color: $navy;
 }

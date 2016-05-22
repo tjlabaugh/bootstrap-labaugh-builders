@@ -4,8 +4,24 @@
 	border-bottom: 2px solid $navy;
 }
 
-a {
+nav a {
 	font-family: $header;
 	color: $white;
 	font-size: 1.2em;
+}
+
+.active {
+	font-family: $header;
+	color: $white;
+	font-size: 1.2em;
+}
+
+.footer-nav a {
+	color: $navy;
+	font-family: $header;
+}
+
+.footer-nav {
+	background-color: $grey;
+	font-size: 1.4em;
 }

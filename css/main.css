@@ -10,24 +10,70 @@
 
 .header-font {
   display: block;
-  color: #182945;
   font-family: "Courgette", cursive; }
+
+h3 {
+  font-family: "Courgette", cursive;
+  font-size: 3.6em;
+  color: #182945; }
+
+p {
+  font-family: "Roboto", sans-serif; }
+
+#formula {
+  display: block;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em; }
+
+.tom-labaugh {
+  border-radius: 20px; }
+
+body {
+  background-color: #a1a1a1; }
+
+.container {
+  background-color: #182945; }
 
 .nav {
   background-color: #182945;
   border-top: 2px solid #182945;
   border-bottom: 2px solid #182945; }
 
-a {
+nav a {
   font-family: "Courgette", cursive;
   color: #fff;
   font-size: 1.2em; }
 
+.active {
+  font-family: "Courgette", cursive;
+  color: #fff;
+  font-size: 1.2em; }
+
+.footer-nav a {
+  color: #182945;
+  font-family: "Courgette", cursive; }
+
+.footer-nav {
+  background-color: #eee;
+  font-size: 1.4em; }
+
 .verticalButton {
   margin: 8px 10px 8px 0; }
 
+.top-row {
+  background-color: #eee; }
+
 .top-head {
-  background-color: #182945; }
+  background-color: #a1a1a1; }
 
 .logo-img {
   display: inline;
@@ -37,8 +83,14 @@ a {
 
 .h1-font-margin {
   margin: 0;
-  padding-right: 50px;
-  color: #eee; }
+  color: #182945; }
+
+footer {
+  width: 100%;
+  background-color: #eee; }
+
+#home-carousel {
+  margin-bottom: 30px; }
 
 #home-carousel img {
   width: auto;

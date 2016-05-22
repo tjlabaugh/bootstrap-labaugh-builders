@@ -16,6 +16,31 @@ $header: 'Courgette', cursive;
 
 .header-font {
 	display: block;
-	color: $navy;
 	font-family: $header;
+}
+
+h3 {
+	font-family: $header;
+	font-size: 3.6em;
+	color: $navy;
+}
+
+p {
+	font-family: $body-text;
+}
+
+#formula {
+	display: block;
+	width: 100%;
+	font-family: $body-text;
+	font-size: 2em;
+	line-height: 1.6em;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.footer-text {
+	font-family: $body-text;
+	font-size: 1.4em;
 }
