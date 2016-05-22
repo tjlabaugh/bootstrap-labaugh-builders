@@ -5,7 +5,7 @@
   display: block;
   color: #182945;
   font-family: "Mr Dafoe", cursive;
-  font-size: 4.2em;
+  font-size: 3.0em;
   text-shadow: 2px 2px 2px #a1a1a1; }
 
 .header-font {
@@ -53,10 +53,13 @@ nav a {
   color: #fff;
   font-size: 1.2em; }
 
+.breadcrum {
+  font-size: 1.4em; }
+
 .active {
   font-family: "Courgette", cursive;
   color: #fff;
-  font-size: 1.2em; }
+  font-size: inherit; }
 
 .footer-nav a {
   color: #182945;
@@ -115,7 +118,7 @@ footer {
   bottom: 0;
   left: 0;
   background-color: #eee;
-  opacity: .3;
+  opacity: .4;
   z-index: -1; }
 
 .overlay h1 {
@@ -141,5 +144,13 @@ footer {
 
 .motto-bottom {
   left: 40%; }
+
+#map-container {
+  margin: 40px; }
+
+#map {
+  width: 400px;
+  height: 400px;
+  border: 2px solid #a1a1a1; }
 
 /*# sourceMappingURL=main.css.map */

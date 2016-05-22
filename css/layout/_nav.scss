@@ -10,10 +10,14 @@ nav a {
 	font-size: 1.2em;
 }
 
+.breadcrum {
+	font-size: 1.4em;
+}
+
 .active {
 	font-family: $header;
 	color: $white;
-	font-size: 1.2em;
+	font-size: inherit;
 }
 
 .footer-nav a {
