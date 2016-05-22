@@ -1,0 +1,21 @@
+.panel h3 {
+	font-family: $body-text;
+	font-size: 1.4em;
+}
+
+.panel p {
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.panel-heading {
+	background-color: $navy;
+	color: $grey;
+}
+
+.panel a {
+	color: $navy;
+	font-weight: bold;
+}
