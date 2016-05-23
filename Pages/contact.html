@@ -74,7 +74,7 @@
 		<!-- Form -->
 		<div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form>
+                <form method="post">
                 	<div class="messages"></div>
 
 				    <div class="controls">
@@ -106,7 +106,7 @@
 				            <div class="col-md-6">
 				                <div class="form-group">
 				                    <label for="form_phone">Phone *</label>
-				                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone Number *">
+				                    <input id="form_phone" type="tel" name="phone" class="form-control" required="required" placeholder="Phone Number *">
 				                    <div class="help-block with-errors"></div>
 				                </div>
 				            </div>
@@ -115,12 +115,12 @@
 				            <div class="col-md-12">
 				                <div class="form-group">
 				                    <label for="form_message">Message</label>
-				                    <textarea id="form_message" name="message" class="form-control" placeholder="Send us a message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+				                    <textarea id="form_message" name="message" class="form-control" placeholder="Send us a message" rows="4"></textarea>
 				                    <div class="help-block with-errors"></div>
 				                </div>
 				            </div>
 				            <div class="col-md-12">
-				                <input type="submit" class="btn btn-success btn-send" value="Send message">
+				                <input type="submit" class="btn btn-success btn-send" value="Send Information">
 				            </div>
 				        </div>
 				        <div class="row">
