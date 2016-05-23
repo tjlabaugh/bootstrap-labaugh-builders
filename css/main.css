@@ -34,6 +34,16 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 1.4em; }
 
+.carousel-bttn {
+  position: absolute;
+  z-index: 10;
+  bottom: 80px;
+  left: 50%;
+  font-size: 1.6em;
+  margin-left: -97px;
+  font-family: "Courgette", cursive;
+  background-color: #182945; }
+
 .panel h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1.4em; }
@@ -167,6 +177,16 @@ footer {
 .motto-bottom {
   left: 40%; }
 
+.carousel-bttn {
+  position: absolute;
+  z-index: 10;
+  bottom: 80px;
+  left: 50%;
+  margin-left: -97px;
+  font-size: 1.6em;
+  font-family: "Courgette", cursive;
+  background-color: #182945; }
+
 #map-container {
   display: block;
   width: 100%;
@@ -191,5 +211,8 @@ footer {
 
 .choose-us {
   list-style-type: none; }
+
+blockquote {
+  font-size: 1.4em; }
 
 /*# sourceMappingURL=main.css.map */

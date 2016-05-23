@@ -59,3 +59,14 @@
 .motto-bottom {
 	left: 40%;
 }
+
+.carousel-bttn {
+	position: absolute;
+	z-index: 10;
+	bottom: 80px;
+	left: 50%;
+	margin-left: -97px;
+	font-size: 1.6em;
+	font-family: $header;
+	background-color: $navy;
+}
